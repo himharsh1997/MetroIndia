@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "96679358139",
+    "firebase_url": "https://metroindia-79f8e.firebaseio.com",
+    "project_id": "metroindia-79f8e",
+    "storage_bucket": "metroindia-79f8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96679358139:android:f0d11dd41becd222",
+        "android_client_info": {
+          "package_name": "com.myname.himanshu.metroindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96679358139-9fn637e9er0olrk9s8pltsq6rsgi9r3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myname.himanshu.metroindia",
+            "certificate_hash": "c51046561e0521d5cf4c05db64aa978e3c2a6a5c"
+          }
+        },
+        {
+          "client_id": "96679358139-lfgdu1s85eaouaqevtuenq873q5l74ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeGTiRdZBvUmKMlNVFwv583V2UAcwKn78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96679358139-lfgdu1s85eaouaqevtuenq873q5l74ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

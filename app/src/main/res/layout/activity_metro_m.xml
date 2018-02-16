@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/first"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/metimg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/met"
+            android:layout_weight="0.1"/>
+
+        <LinearLayout
+            android:id="@+id/layhead1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/paleturquoise"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Find Metro"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/headdescript"
+    android:layout_height="20dp"
+    android:layout_width="match_parent"
+    android:background="@color/darkgrey"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/myheaddes"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:text="Get location of your nearest metro"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="cursive"
+        />
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/logsign"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+        <TabHost
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            >
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                >
+                <TabWidget
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@android:id/tabs">
+
+                </TabWidget>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@android:id/tabcontent">
+                    <LinearLayout
+                        android:id="@android:id/tabs"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        >
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        >
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </TabHost>
+    </LinearLayout>
+
+
+
+</LinearLayout>
